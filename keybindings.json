@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+x ctrl+shift+x",
+        "command": "macros.exampleMacro1"
+    },
+    {
+        "key": "ctrl+shift+z ctrl+shift+z",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "($1) => {$2}"
+        }
+    }
+]

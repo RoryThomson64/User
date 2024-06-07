@@ -1,0 +1,20 @@
+{
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "editor.formatOnSave": true,
+    "macros": {
+        "exampleMacro1": [
+            {
+                "javascript": [
+                    "const lambda = '() => {}'",
+                    "const myEditor = vscode.window.activeTextEditor; ",
+                    "myEditor.edit(myEditBuilder => { ",
+                    "myEditor.selections.forEach(rangeSelezione => {",
+                    "myEditBuilder.replace(rangeSelezione, lambda);",
+                    "})})"
+                ]
+            }
+        ]
+    }
+}
