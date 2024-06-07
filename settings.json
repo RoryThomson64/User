@@ -1,20 +1,41 @@
 {
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": 1,
-    "git.autofetch": true,
-    "editor.formatOnSave": true,
-    "macros": {
-        "exampleMacro1": [
-            {
-                "javascript": [
-                    "const lambda = '() => {}'",
-                    "const myEditor = vscode.window.activeTextEditor; ",
-                    "myEditor.edit(myEditBuilder => { ",
-                    "myEditor.selections.forEach(rangeSelezione => {",
-                    "myEditBuilder.replace(rangeSelezione, lambda);",
-                    "})})"
-                ]
-            }
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 1,
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Default Dark+",
+  "redhat.telemetry.enabled": false,
+  "npm.enableRunFromFolder": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "rust": false
+  },
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
+  },
+  "git.confirmSync": false,
+  "eslint.lintTask.enable": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.minimap.autohide": true,
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "macros": {
+    "exampleMacro1": [
+      {
+        "javascript": [
+          "const lambda = '() => {}'",
+          "const myEditor = vscode.window.activeTextEditor; ",
+          "myEditor.edit(myEditBuilder => { ",
+          "myEditor.selections.forEach(rangeSelezione => {",
+          "myEditBuilder.replace(rangeSelezione, lambda);",
+          "})})"
         ]
-    }
+      }
+    ]
+  }
 }
