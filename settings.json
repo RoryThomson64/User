@@ -1,5 +1,9 @@
 {
   "editor.minimap.enabled": false,
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.triggerExpansionOnTab": false,
+  "emmet.useInlineCompletions": false,
+  "editor.autoClosingBrackets": "never",
   "window.zoomLevel": 1,
   "git.autofetch": true,
   "editor.formatOnSave": true,
@@ -37,5 +41,6 @@
         ]
       }
     ]
-  }
+  },
+  "emmet.showExpandedAbbreviation": "never"
 }

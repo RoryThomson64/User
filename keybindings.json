@@ -1,15 +1,42 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "ctrl+shift+x ctrl+shift+x",
-    "command": "macros.exampleMacro1"
-  },
-  {
-    "key": "ctrl+shift+z ctrl+shift+z",
+    "key": "ctrl+l",
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
-      "snippet": "($1) => {\n$2\n}"
+      "langId": "javascript",
+      "name": "Lambda"
     }
+  },
+  {
+    "key": "ctrl+;",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "langId": "javascriptreact",
+      "name": "UseEffect"
+    }
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "langId": "typescriptreact",
+      "name": "JSXComponent"
+    }
+  },
+  {
+    "key": "alt+v",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": { "langId": "typescript", "name": "ConstVar" }
+  },
+  {
+    "key": "alt+o",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": { "langId": "json", "name": "BindSnippet" }
   }
 ]
