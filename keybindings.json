@@ -38,11 +38,5 @@
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": { "langId": "json", "name": "BindSnippet" }
-  },
-  {
-    "key": "alt+i",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": { "langId": "json", "name": "BindSnippet" }
   }
 ]
