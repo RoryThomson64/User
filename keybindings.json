@@ -23,7 +23,7 @@
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
-      "langId": "typescriptreact",
+      "langId": "typescript",
       "name": "JSXComponent"
     }
   },

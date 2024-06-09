@@ -28,7 +28,7 @@
   },
 
   "JSXComponent": {
-    "scope": "typescriptreact",
+    "scope": "typescript,javascript,typescriptreact, javascriptreact",
     "prefix": "JSXComponent",
 
     "body": [
