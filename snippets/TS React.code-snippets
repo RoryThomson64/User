@@ -69,5 +69,10 @@
       "\"args\": { \"langId\": \"${2:Lanuage}\", \"name\": \"${3:SnippetName}\" }",
       "},"
     ]
+  },
+  "ConsoleLog": {
+    "scope": "typescript, typescriptreact, javascript, javascriptreact",
+    "prefix": "console.log(",
+    "body": "console.log(${1});"
   }
 }

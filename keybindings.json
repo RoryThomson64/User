@@ -38,5 +38,11 @@
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": { "langId": "json", "name": "BindSnippet" }
+  },
+  {
+    "key": "ctrl+alt+/",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": { "langId": "typescript", "name": "ConsoleLog" }
   }
 ]
