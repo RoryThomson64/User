@@ -45,5 +45,6 @@
   "emmet.showExpandedAbbreviation": "never",
   "editor.mouseWheelZoom": true,
   "window.zoomPerWindow": false,
-  "terminal.integrated.mouseWheelZoom": true
+  "terminal.integrated.mouseWheelZoom": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
