@@ -42,5 +42,8 @@
       }
     ]
   },
-  "emmet.showExpandedAbbreviation": "never"
+  "emmet.showExpandedAbbreviation": "never",
+  "editor.mouseWheelZoom": true,
+  "window.zoomPerWindow": false,
+  "terminal.integrated.mouseWheelZoom": true
 }
