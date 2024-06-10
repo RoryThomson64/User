@@ -74,5 +74,12 @@
     "scope": "typescript, typescriptreact, javascript, javascriptreact",
     "prefix": "console.log(",
     "body": "console.log(${1});"
+  },
+  "UseState": {
+    "scope": "typescript, typescriptreact, javascript, javascriptreact",
+    "prefix": "useState",
+    "body": [
+      "const [${1:getter}, ${2:setter}] = useState<${3:type}>(${4:initVal})"
+    ]
   }
 }

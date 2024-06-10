@@ -44,5 +44,11 @@
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": { "langId": "typescript", "name": "ConsoleLog" }
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": { "langId": "typescript", "name": "UseState" }
   }
 ]
