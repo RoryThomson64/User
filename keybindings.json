@@ -50,5 +50,11 @@
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": { "langId": "typescript", "name": "UseState" }
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": { "langId": "typescript", "name": "UseAppSelector" }
   }
 ]

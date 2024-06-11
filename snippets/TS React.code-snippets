@@ -81,5 +81,10 @@
     "body": [
       "const [${1:getter}, ${2:setter}] = useState<${3:type}>(${4:initVal})"
     ]
+  },
+  "UseAppSelector": {
+    "scope": "typescript, typescriptreact, javascript, javascriptreact",
+    "prefix": "useAppSelector((state)=>{})",
+    "body": ["const {$1} = useAppSelector((state)=>{", "return {$1}", "});"]
   }
 }
