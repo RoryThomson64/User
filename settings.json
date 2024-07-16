@@ -4,7 +4,6 @@
   "emmet.triggerExpansionOnTab": false,
   "emmet.useInlineCompletions": false,
   "editor.autoClosingBrackets": "never",
-  "window.zoomLevel": 1,
   "git.autofetch": true,
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Default Dark+",
@@ -28,23 +27,28 @@
   "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "github.copilot.editor.enableAutoCompletions": true,
-  "macros": {
-    "exampleMacro1": [
-      {
-        "javascript": [
-          "const lambda = '() => {}'",
-          "const myEditor = vscode.window.activeTextEditor; ",
-          "myEditor.edit(myEditBuilder => { ",
-          "myEditor.selections.forEach(rangeSelezione => {",
-          "myEditBuilder.replace(rangeSelezione, lambda);",
-          "})})"
-        ]
-      }
-    ]
-  },
   "emmet.showExpandedAbbreviation": "never",
   "editor.mouseWheelZoom": true,
   "window.zoomPerWindow": false,
   "terminal.integrated.mouseWheelZoom": true,
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 13,
+  "git.replaceTagsWhenPull": true,
+  "window.commandCenter": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "Cargo.toml": "Cargo.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  }
 }
